@@ -1,0 +1,115 @@
+
+
+
+                               Angular -frontend technology
+
+                               Basic Commands
+
+
+                1.To Create Project - ng new project name
+
+                2.To Run Angular Project-ng serve /ng serve --open
+
+                3.To Create New Component Generate- ng g c Component Name
+
+                              
+
+                              Building Blocks
+
+
+
+                1.Module-To import libraries(root Module - AppModule)              
+
+                2.Component-To Create View (html,css,ts,spec) 
+
+                3.Data Binding-Share data inside components
+                 
+                    3.1.oneway binding-Data sharing only in one direction
+
+                         3.1.1.Component(ts) to view(html)
+
+                             3.1.1.1.String Interpolation{{expression}} 
+
+                             3..1.1.2.Propertie Binding[attribute name]='property name'
+
+                        3.1.2.view(html) to Component(ts)
+                           
+                            3.1.2.1.Event Binding-(event-name)="function name()"
+
+                            3.1.2.2.Event Binding using $event-(event-name)="function name($event)"
+
+                            3.1.2.3.Using Template referencing variable-#variable-name
+
+                    
+
+                    3.2.two way binding -data sharing in both direction
+
+
+                       3.2.1.ngModel - import formModule in AppModule [(ngModel)]="variable-name"
+
+                4.Angular Routing-TO set path  Component in AppRoutingModule
+                  use router-outlet selector in root component
+
+                5.Dependancy Injection-
+
+                6.Angular services
+
+                7.ngSubmit
+
+                8.Angular directives - To manipulate DOM structure
+
+                  8.1.Component directives
+
+                  8.2.Structural Directives - prefix by *
+
+                    8.2.1. *ngFor
+
+                    8.2.2 *ngIf
+
+                  8.3 Attribute directives ngClass
+
+                  
+
+                9.Angular Forms
+
+                    9.1.Template Driven Forms -design html
+
+                    9.2.Model Driven Forms - User input validation -design model in ts file
+
+                       9.2.1 Reactive Forms -Form Group,Array,Control 
+                             -Import ReactiveFormsModule
+
+                
+                10.Local Storage
+
+                    10.1 setItem
+                    10.2 getItem
+                   10.3 removeItem
+
+
+                11. parent child communication
+
+                  11.1. parent to child - @Input()  decarator
+
+                  11.2. child to parent - @Output()  decarator  
+
+                12. Angular pipe  - transform input format to another format
+
+                13.Front end and Server side integration
+
+                   13.1.import HttpClientModule
+
+                   13.2.inject HttpClient
+
+                   13.3.call api using HttpClient
+
+                14.Asychronus Call-RxJS
+
+                   14.1.Observable 
+
+                       14.1.1 resolved - subscribe()
+
+                       14.1.2. reject - catch()
+
+                     
+
